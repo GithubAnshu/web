@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+  
+.navbar li a{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+}
+/* .navbar .container-fluid {
+  width: 80%;
+} */
+
+.navbar .container-fluid a:hover {
+  transition: 0.2s;
+}
+
+
+.nav-item a:hover {
+    font-size: 16px;
+    transition: 0.5s;
+    border-radius: 6px;
+    opacity: 0.6;
+    background-color: transparent;
+  }
+ .nav-item .nava li a{
+    background-color: red;
+ }
+
+
+
+
+
+  
+.carousel-item img {  
+  width: 30rem;
+  height: 40rem;
+}
+body {
+  position: relative;
+}
+
+.about_img {
+  min-width: 100%;
+  max-height: 290px;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+.offer-style {
+  background-color: rgb(131, 0, 33);
+  width: 90%;
+  margin: auto;
+  border-radius: 6px;
+}
+
+
+.customs img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-us,
+.announcements,
+.news {
+  background-color: #e3f5f997;
+  box-shadow: rgba(0, 0, 0, 0.141) 10px 0px 10px 0px;
+}
+
+.container img:hover {
+  width: 412px;
+}
+.modal-footer .btn{
+    padding: 6px;
+    color: rgb(235, 0, 0);
+    background-color: transparent;
+    border: 1px solid rgb(218, 0, 0);
+
+}
+.modal-footer .btn:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.videobtn{
+    color: white;
+    padding: 6px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.videobtn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+}
+.videobtn:vi{
+    color: white;
+    padding: 6px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+
+
+.follow-widget {
+  text-align: center;
+  width: 90%;
+  margin: 50px auto;
+  display: table;
+  border: 1px solid #ddd;
+  padding: 10px 10px 20px;
+  border-radius: 10px;
+}
+.follow-widget h2 {
+  border-bottom: 1px solid #ddd;
+  padding: 0px 0px 25px;
+  font-size: 26px;
+  letter-spacing: 1px;
+}
+.follow-widget ul {
+  padding: 0px;
+  /* border: 1px solid red; */
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.follow-widget li {
+  list-style: none;
+  font-size: 20px;
+  margin: 10px 0px 10px;
+  width: 16.666%;
+}
+.follow-widget li a i {
+  background-color: #f1f1f1;
+  color: #fff;
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  line-height: 43px !important;
+}
+.follow-widget li a i:hover {
+  opacity: 0.6;
+}
+.follow-widget li a i.fa.fa-facebook {
+  background-color: #3b5997;
+}
+.follow-widget li a i.fa.fa-twitter {
+  background-color: #57aced;
+}
+.follow-widget li a i.fa.fa-pinterest-p {
+  background-color: #cb2026;
+}
+.follow-widget li a i.fa.fa-instagram {
+  background-color: #3e729a;
+}
+.follow-widget li a .fab {
+  background-color: #4153db;
+}
+.follow-widget li a i.fa.fa-youtube-play {
+  background-color: #c42f2b;
+}
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
